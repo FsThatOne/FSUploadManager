@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66845681C09891600D09F36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845671C09891600D09F36 /* main.m */; };
+		B668456B1C09891600D09F36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B668456A1C09891600D09F36 /* AppDelegate.m */; };
+		B668456E1C09891600D09F36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B668456D1C09891600D09F36 /* ViewController.m */; };
+		B66845711C09891600D09F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B668456F1C09891600D09F36 /* Main.storyboard */; };
+		B66845731C09891600D09F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66845721C09891600D09F36 /* Assets.xcassets */; };
+		B66845761C09891600D09F36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66845741C09891600D09F36 /* LaunchScreen.storyboard */; };
+		B66845811C09891600D09F36 /* FSUploadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66845801C09891600D09F36 /* FSUploadManagerTests.m */; };
+		B668458C1C09891600D09F36 /* FSUploadManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B668458B1C09891600D09F36 /* FSUploadManagerUITests.m */; };
+		B66845A01C098B4200D09F36 /* FSUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B668459E1C098B4200D09F36 /* FSUploadManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B668457D1C09891600D09F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B668455B1C09891600D09F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66845621C09891600D09F36;
+			remoteInfo = FSUploadManager;
+		};
+		B66845881C09891600D09F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B668455B1C09891600D09F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66845621C09891600D09F36;
+			remoteInfo = FSUploadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B66845631C09891600D09F36 /* FSUploadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSUploadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66845671C09891600D09F36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B66845691C09891600D09F36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B668456A1C09891600D09F36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B668456C1C09891600D09F36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B668456D1C09891600D09F36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B66845701C09891600D09F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B66845721C09891600D09F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B66845751C09891600D09F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B66845771C09891600D09F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B668457C1C09891600D09F36 /* FSUploadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSUploadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66845801C09891600D09F36 /* FSUploadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSUploadManagerTests.m; sourceTree = "<group>"; };
+		B66845821C09891600D09F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66845871C09891600D09F36 /* FSUploadManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSUploadManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B668458B1C09891600D09F36 /* FSUploadManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSUploadManagerUITests.m; sourceTree = "<group>"; };
+		B668458D1C09891600D09F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B668459E1C098B4200D09F36 /* FSUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSUploadManager.m; path = FSUploadManager/FSUploadManager.m; sourceTree = "<group>"; };
+		B668459F1C098B4200D09F36 /* FSUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FSUploadManager.h; path = FSUploadManager/FSUploadManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66845601C09891600D09F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845791C09891600D09F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845841C09891600D09F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B668455A1C09891600D09F36 = {
+			isa = PBXGroup;
+			children = (
+				B66845651C09891600D09F36 /* FSUploadManager */,
+				B668457F1C09891600D09F36 /* FSUploadManagerTests */,
+				B668458A1C09891600D09F36 /* FSUploadManagerUITests */,
+				B66845641C09891600D09F36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B66845641C09891600D09F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66845631C09891600D09F36 /* FSUploadManager.app */,
+				B668457C1C09891600D09F36 /* FSUploadManagerTests.xctest */,
+				B66845871C09891600D09F36 /* FSUploadManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66845651C09891600D09F36 /* FSUploadManager */ = {
+			isa = PBXGroup;
+			children = (
+				B668459D1C098A0C00D09F36 /* FSUploader */,
+				B66845691C09891600D09F36 /* AppDelegate.h */,
+				B668456A1C09891600D09F36 /* AppDelegate.m */,
+				B668456C1C09891600D09F36 /* ViewController.h */,
+				B668456D1C09891600D09F36 /* ViewController.m */,
+				B668456F1C09891600D09F36 /* Main.storyboard */,
+				B66845721C09891600D09F36 /* Assets.xcassets */,
+				B66845741C09891600D09F36 /* LaunchScreen.storyboard */,
+				B66845771C09891600D09F36 /* Info.plist */,
+				B66845661C09891600D09F36 /* Supporting Files */,
+			);
+			path = FSUploadManager;
+			sourceTree = "<group>";
+		};
+		B66845661C09891600D09F36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B66845671C09891600D09F36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B668457F1C09891600D09F36 /* FSUploadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B66845801C09891600D09F36 /* FSUploadManagerTests.m */,
+				B66845821C09891600D09F36 /* Info.plist */,
+			);
+			path = FSUploadManagerTests;
+			sourceTree = "<group>";
+		};
+		B668458A1C09891600D09F36 /* FSUploadManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B668458B1C09891600D09F36 /* FSUploadManagerUITests.m */,
+				B668458D1C09891600D09F36 /* Info.plist */,
+			);
+			path = FSUploadManagerUITests;
+			sourceTree = "<group>";
+		};
+		B668459D1C098A0C00D09F36 /* FSUploader */ = {
+			isa = PBXGroup;
+			children = (
+				B668459E1C098B4200D09F36 /* FSUploadManager.m */,
+				B668459F1C098B4200D09F36 /* FSUploadManager.h */,
+			);
+			name = FSUploader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66845621C09891600D09F36 /* FSUploadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66845901C09891600D09F36 /* Build configuration list for PBXNativeTarget "FSUploadManager" */;
+			buildPhases = (
+				B668455F1C09891600D09F36 /* Sources */,
+				B66845601C09891600D09F36 /* Frameworks */,
+				B66845611C09891600D09F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSUploadManager;
+			productName = FSUploadManager;
+			productReference = B66845631C09891600D09F36 /* FSUploadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B668457B1C09891600D09F36 /* FSUploadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66845931C09891600D09F36 /* Build configuration list for PBXNativeTarget "FSUploadManagerTests" */;
+			buildPhases = (
+				B66845781C09891600D09F36 /* Sources */,
+				B66845791C09891600D09F36 /* Frameworks */,
+				B668457A1C09891600D09F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B668457E1C09891600D09F36 /* PBXTargetDependency */,
+			);
+			name = FSUploadManagerTests;
+			productName = FSUploadManagerTests;
+			productReference = B668457C1C09891600D09F36 /* FSUploadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B66845861C09891600D09F36 /* FSUploadManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66845961C09891600D09F36 /* Build configuration list for PBXNativeTarget "FSUploadManagerUITests" */;
+			buildPhases = (
+				B66845831C09891600D09F36 /* Sources */,
+				B66845841C09891600D09F36 /* Frameworks */,
+				B66845851C09891600D09F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66845891C09891600D09F36 /* PBXTargetDependency */,
+			);
+			name = FSUploadManagerUITests;
+			productName = FSUploadManagerUITests;
+			productReference = B66845871C09891600D09F36 /* FSUploadManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B668455B1C09891600D09F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FSxiaoyi;
+				TargetAttributes = {
+					B66845621C09891600D09F36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+					};
+					B668457B1C09891600D09F36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+						TestTargetID = B66845621C09891600D09F36;
+					};
+					B66845861C09891600D09F36 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+						TestTargetID = B66845621C09891600D09F36;
+					};
+				};
+			};
+			buildConfigurationList = B668455E1C09891600D09F36 /* Build configuration list for PBXProject "FSUploadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B668455A1C09891600D09F36;
+			productRefGroup = B66845641C09891600D09F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66845621C09891600D09F36 /* FSUploadManager */,
+				B668457B1C09891600D09F36 /* FSUploadManagerTests */,
+				B66845861C09891600D09F36 /* FSUploadManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B66845611C09891600D09F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66845761C09891600D09F36 /* LaunchScreen.storyboard in Resources */,
+				B66845731C09891600D09F36 /* Assets.xcassets in Resources */,
+				B66845711C09891600D09F36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B668457A1C09891600D09F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845851C09891600D09F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B668455F1C09891600D09F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B668456E1C09891600D09F36 /* ViewController.m in Sources */,
+				B66845A01C098B4200D09F36 /* FSUploadManager.m in Sources */,
+				B668456B1C09891600D09F36 /* AppDelegate.m in Sources */,
+				B66845681C09891600D09F36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845781C09891600D09F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66845811C09891600D09F36 /* FSUploadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66845831C09891600D09F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B668458C1C09891600D09F36 /* FSUploadManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B668457E1C09891600D09F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66845621C09891600D09F36 /* FSUploadManager */;
+			targetProxy = B668457D1C09891600D09F36 /* PBXContainerItemProxy */;
+		};
+		B66845891C09891600D09F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66845621C09891600D09F36 /* FSUploadManager */;
+			targetProxy = B66845881C09891600D09F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B668456F1C09891600D09F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66845701C09891600D09F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B66845741C09891600D09F36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66845751C09891600D09F36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B668458E1C09891600D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B668458F1C09891600D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66845911C09891600D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSUploadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSUploadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66845921C09891600D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSUploadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSUploadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B66845941C09891600D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSUploadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSUploadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSUploadManager.app/FSUploadManager";
+			};
+			name = Debug;
+		};
+		B66845951C09891600D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSUploadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSUploadManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSUploadManager.app/FSUploadManager";
+			};
+			name = Release;
+		};
+		B66845971C09891600D09F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSUploadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSUploadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSUploadManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B66845981C09891600D09F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSUploadManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSUploadManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSUploadManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B668455E1C09891600D09F36 /* Build configuration list for PBXProject "FSUploadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B668458E1C09891600D09F36 /* Debug */,
+				B668458F1C09891600D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66845901C09891600D09F36 /* Build configuration list for PBXNativeTarget "FSUploadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66845911C09891600D09F36 /* Debug */,
+				B66845921C09891600D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B66845931C09891600D09F36 /* Build configuration list for PBXNativeTarget "FSUploadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66845941C09891600D09F36 /* Debug */,
+				B66845951C09891600D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B66845961C09891600D09F36 /* Build configuration list for PBXNativeTarget "FSUploadManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66845971C09891600D09F36 /* Debug */,
+				B66845981C09891600D09F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B668455B1C09891600D09F36 /* Project object */;
+}
